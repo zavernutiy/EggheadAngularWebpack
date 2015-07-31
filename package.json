@@ -1,0 +1,22 @@
+{
+  "name": "angularwebpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack-dev-server": "^1.10.1",
+    "webpack": "^1.10.5"
+  },
+  "devDependencies": {
+    "babel": "^5.8.12",
+    "css-loader": "^0.15.6",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.12.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/webpack-dev-server --content-base app"
+  },
+  "author": "",
+  "license": "ISC"
+}
