@@ -1,8 +1,10 @@
 /**
  * Created by Max on 7/28/2015.
  */
+var path = require('path');
+
 module.exports = {
-    context: __dirname + '/app',
+    context: path.join(__dirname, '/app'),
     entry: './index.js',
     output: {
         path: __dirname + '/app',
