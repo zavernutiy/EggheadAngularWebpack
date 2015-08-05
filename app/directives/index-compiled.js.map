@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":[],"mappings":";;;;;;qBAAe,UAAA,QAAQ,EAAI;AACvB,WAAO,CAAC,aAAa,CAAC,CAAC,QAAQ,CAAC,CAAC;AACjC,WAAO,CAAC,eAAe,CAAC,CAAC,QAAQ,CAAC,CAAC;CACtC","file":"index-compiled.js","sourcesContent":["export default ngModule => {\r\n    require('./kcd-hello')(ngModule);\r\n    require('./file-upload')(ngModule);\r\n};"]}
